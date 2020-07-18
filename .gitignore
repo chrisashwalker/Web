@@ -125,5 +125,6 @@ dmypy.json
 .pyre/
 
 .idea/
+exclude/
 templates/
 static/
