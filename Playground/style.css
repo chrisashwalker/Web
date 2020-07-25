@@ -1,0 +1,13 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+h1, p {
+    text-align: center;
+}
+
+input, button {
+    display: block;
+    margin: 0 auto 0 auto;
+}
