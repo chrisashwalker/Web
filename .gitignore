@@ -127,3 +127,4 @@ dmypy.json
 # Web specific
 .idea/
 exclude/
+Personal/.vscode/settings.json
