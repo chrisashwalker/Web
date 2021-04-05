@@ -1,0 +1,64 @@
+#promotionstext1 {
+background-color:#333;
+padding:10px;
+width:600px;
+height:350px;
+margin:0 5px 5px 0;
+float:left;
+}
+
+.biggerpromotext {
+font-size:1.5em;
+color:#fc3;
+}
+
+#promotionsform {
+width:275px;
+height:370px;
+background-color:#fc3;
+color:#161616;
+margin-bottom:5px;
+float:right;
+}
+
+#promotionsformtitle {
+font-weight:bold;
+text-decoration:underline;
+}
+
+#promotionsform p {
+margin:15px;
+}
+
+#promotionsform input {
+padding:0 5px 0 5px;
+margin-left:5px;
+}
+
+#submit {
+margin-left:25px;
+}
+
+#promotionstext2 {
+background-color:#333;
+padding:10px;
+width:880px;
+height:250px;
+float:left;
+}
+
+@media (max-width:920px) {
+#promotionstext1, #promotionstext2, #promotionsform {
+width:90%;
+height:auto;
+padding:10px 5% 10px 5%;
+margin:0 0 5px 0;
+text-align:justify;
+
+}
+
+#promotionsform p {
+padding:0;
+margin:15px 1.5% 15px 1.5%;
+}
+}

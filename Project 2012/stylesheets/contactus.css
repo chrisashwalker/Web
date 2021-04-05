@@ -1,0 +1,76 @@
+#contactus, #contactus a {
+background-color:#ccc;
+color:#161616;
+}
+
+#contactustext1 {
+background-color:#333;
+padding:10px;
+width:460px;
+height:150px;
+margin:0 5px 5px 0;
+float:left;
+}
+
+
+#contactform {
+width:480px;
+height:465px;
+margin-right:5px;
+background-color:#333;
+float:left;
+}
+
+#contactform p {
+margin:15px;
+}
+
+#contactform input, #contactform textarea {
+padding:0 5px 0 5px;
+margin-left:5px;
+}
+
+#contactform textarea {
+width:80%;
+height:80px;
+}
+
+#contactform #submit {
+padding:5px;
+}
+
+#contactusimg1 {
+float:right;
+width:415px;
+height:640px;
+}
+
+@media (max-width:920px) {
+#contactustext1 {
+width:90%;
+height:auto;
+padding:10px 5% 10px 5%;
+margin:0 0 5px 0;
+text-align:justify;
+}
+	
+#contactform {
+width:90%;
+height:auto;
+padding:5%;
+margin-right:0;
+}
+	
+#contactform p {
+margin:15px 1.5% 15px 1.5%;
+}
+
+#contactform input, #contactform textarea {
+padding:0 5% 0 5%;
+margin-left:5%;
+}
+	
+#contactusimg1 {
+display:none;
+}
+}

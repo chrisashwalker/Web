@@ -1,0 +1,49 @@
+#pagesix, #pagesix a {
+background-color:#ccc;
+color:#161616;
+}
+
+#pagesixtext1 {
+background-color:#333;
+padding:10px;
+width:435px;
+height:750px;
+margin-right:5px;
+float:left;
+}
+
+#pagesiximg1 {
+width:440px;
+height:770px;
+float:right;
+}
+
+@media (max-width:920px) {
+#pagesixtext1 {
+width:40%;
+height:auto;
+padding:10px 5% 10px 5%;
+margin-right:0.5%;
+text-align:justify;
+}
+	
+#pagesiximg1 {
+width:49.5%;
+height:auto;
+}
+}
+
+@media (max-width:470px) {
+#pagesixtext1 {
+width:90%;
+height:auto;
+padding:10px 5% 10px 5%;
+margin:0 0 5px 0;
+text-align:justify;
+}
+	
+#pagesiximg1 {
+width:100%;
+height:auto;
+}
+}

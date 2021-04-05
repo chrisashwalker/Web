@@ -1,0 +1,98 @@
+#pagethree, #pagethree a {
+background-color:#ccc;
+color:#161616;
+}
+
+.pagethreeimgs {
+width:400px;
+height:200px;
+float:right;
+margin-bottom:5px;
+}
+
+#pagethreetext1 {
+background-color:#333;
+padding:10px;
+width:880px;
+height:80px;
+margin-bottom:5px;
+float:left;
+}
+
+#pagethreetext2 {
+background-color:#333;
+padding:10px;
+width:475px;
+height:180px;
+margin:0 5px 5px 0;
+float:left;
+}
+
+#pagethreetext3 {
+background-color:#333;
+padding:10px;
+width:475px;
+height:180px;
+margin:0 5px 5px 0;
+float:left;
+}
+
+#pagethreetext4 {
+background-color:#333;
+padding:10px;
+width:475px;
+height:180px;
+margin:0 5px 5px 0;
+float:left;
+}
+
+#pagethreetext5 {
+background-color:#333;
+padding:10px;
+width:475px;
+height:270px;
+margin:0 5px 5px 0;
+float:left;
+}
+
+#img4 {
+width:400px;
+height:290px;
+}	
+
+#pagethreetext6 {
+background-color:#333;
+padding:10px;
+width:880px;
+height:110px;
+margin-bottom:5px;
+float:left;
+}
+
+#pagethreetext7 {
+background-color:#333;
+padding:10px;
+width:880px;
+height:150px;
+margin-bottom:5px;
+float:left;
+}
+
+#pagethreetext2 .highlight, #pagethreetext3 .highlight, #pagethreetext4 .highlight, #pagethreetext5 .highlight, #pagethreetext6 .highlight, #pagethreetext7 .highlight {
+text-decoration:underline;
+}
+
+@media (max-width:920px) {
+#pagethreetext1, #pagethreetext2, #pagethreetext3, #pagethreetext4, #pagethreetext5, #pagethreetext6, #pagethreetext7 {
+width:90%;
+height:auto;
+padding:10px 5% 10px 5%;
+margin:0 0 5px 0;
+text-align:justify;
+}
+	
+.pagethreeimgs, #img4 {
+width:100%;
+height:auto;
+}
+}

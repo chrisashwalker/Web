@@ -1,0 +1,217 @@
+#pagefive, #pagefive a {
+background-color:#ccc;
+color:#161616;
+}
+
+#pagefiveimg9 {
+float:left;
+height:473px;
+width:880px;
+margin-bottom:10px;
+}
+
+#pagefivetext6 {
+float:left;
+background-color:#333;
+padding:10px;
+width:880px;
+margin-top:5px;
+text-align:justify;
+}
+
+#pagefiveimg8 {
+float:left;
+height:484px;
+width:880px;
+margin-bottom:10px;
+}
+
+#pagefivetext5 {
+float:left;
+background-color:#333;
+padding:10px;
+width:880px;
+margin-top:5px;
+text-align:justify;
+}
+
+#pagefiveimg6 {
+float:left;
+height:400px;
+width:450px;
+margin:0 7px 10px 0;
+}
+
+#pagefiveimg7 {
+float:left;
+height:400px;
+width:423px;
+margin-bottom:10px;
+}
+
+#pagefivetext4 {
+float:left;
+background-color:#333;
+padding:10px;
+width:880px;
+margin-top:5px;
+text-align:justify;
+}
+
+#pagefiveimg5 {
+float:left;
+height:400px;
+width:880px;
+margin:0 0 10px 0;
+}
+
+#pagefivetext3 {
+float:left;
+background-color:#333;
+padding:10px;
+width:880px;
+margin-top:5px;
+text-align:justify;
+}
+
+#pagefiveimg3 {
+float:left;
+height:400px;
+width:463px;
+margin:0 7px 10px 0;
+}
+
+#pagefiveimg4 {
+float:left;
+height:400px;
+width:410px;
+margin-bottom:10px;
+}
+
+#pagefivetext2 {
+float:left;
+background-color:#333;
+padding:10px;
+width:880px;
+margin-top:5px;
+text-align:justify;
+}
+
+.divider {
+float:left;
+width:100%;
+height:2px;
+margin:30px 0 25px 0;
+background-color:#ccc;
+}
+
+#pagefiveimg1 {
+float:left;
+height:400px;
+width:606px;
+margin:0 7px 10px 0;
+}
+
+#pagefiveimg2 {
+float:left;
+height:400px;
+width:267px;
+margin-bottom:10px;
+}
+
+#pagefivetext1 {
+float:left;
+background-color:#333;
+padding:10px;
+width:880px;
+margin-top:5px;
+text-align:justify;
+}
+
+@media (max-width:920px) {
+
+#pagefiveimg9 {
+width:100%;
+height:auto;
+margin:0 0 10px 0;
+}
+
+#pagefivetext6 {
+width:90%;
+height:auto;
+padding:10px 5% 10px 5%;
+}
+
+#pagefiveimg8 {
+width:100%;
+height:auto;
+margin:0 0 10px 0;
+}
+
+#pagefivetext5 {
+width:90%;
+height:auto;
+padding:10px 5% 10px 5%;
+}
+
+#pagefiveimg7 {
+display:none;
+}
+
+#pagefiveimg6 {
+width:100%;
+height:auto;
+margin:0 0 10px 0;
+}
+
+#pagefivetext4 {
+width:90%;
+height:auto;
+padding:10px 5% 10px 5%;
+}
+
+#pagefiveimg5 {
+width:100%;
+height:auto;
+margin:0 0 10px 0;
+}
+
+#pagefivetext3 {
+width:90%;
+height:auto;
+padding:10px 5% 10px 5%;
+}
+
+#pagefiveimg3 {
+width:100%;
+height:auto;
+margin:0 0 10px 0;
+}
+
+#pagefiveimg4 {
+display:none;
+}
+
+#pagefivetext2 {
+width:90%;
+height:auto;
+padding:10px 5% 10px 5%;
+}
+
+#pagefiveimg1 {
+width:100%;
+height:auto;
+margin:0 0 10px 0;
+}
+
+#pagefiveimg2 {
+display:none;
+}
+
+#pagefivetext1 {
+width:90%;
+height:auto;
+padding:10px 5% 10px 5%;
+}
+
+}

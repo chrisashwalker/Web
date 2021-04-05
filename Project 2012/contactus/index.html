@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>Contact Us - Details on how to get in touch with Something</title>
+
+<meta name="author" content="Christopher Walker">
+<meta name="description" content="A website about nothing.">
+<meta name="keywords" content="these, are, keywords">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="../scripts/css3-mediaqueries.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="../scripts/imgswap.js"></script>
+<script src="../scripts/imgpopup.js"></script>
+
+<link rel="stylesheet" href="../stylesheets/standard.css" type="text/css">
+<link rel="stylesheet" href="../stylesheets/contactus.css" type="text/css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Comfortaa" type="text/css">
+</head>
+<body>
+
+<img src="../graphics/placeholder.png" id="logo" alt="logo" title="A logo was here">
+
+<p id="topcontact">
+Contact info:<br>
+Call 000 0000 0000 or <a href="../contactus/index.html#contactustext1" rel="nofollow" title="Contact us via email.">send us an email.</a>
+</p>
+  
+<ul id="navigationbar">
+<li class="main" id="home"><a href="../index.html" title="Homepage of something.com">home</a>
+</li>
+<li class="main" id="pagetwo"><a href="../pagetwo/index.html" title="Page two of something.com">page two</a>
+</li>
+<li class="main" id="pagethree"><a href="../pagethree/index.html" title="Page three of something.com">page three</a>
+</li>
+<li class="main" id="pagefour"><a href="../pagefour/index.html" title="Page four of something.com">page four</a>
+</li>
+<li class="main" id="pagefive"><a href="../pagefive/index.html" title="Page five of something.com">page five</a>
+</li>
+<li class="main" id="pagesix"><a href="../pagesix/index.html" title="Page six of something.com">page six</a>
+</li>
+<li class="main" id="contactus"><a href="../contactus/index.html" title="How to contact us.">contact us</a>
+</li>
+</ul>
+
+<p id="contactustext1">
+To make an enquiry, please contact us at:<br>
+<br>
+Email (sales): <a href="mailto:sales@something.com" rel="nofollow">sales@something.com</a><br>
+Email (general enquiries): <a href="mailto:info@something.com" rel="nofollow">info@something.com</a><br>
+Telephone: 000 0000 0000<br>
+</p>
+
+<img id="contactusimg1" src="../graphics/placeholder.png" alt="An image of something">
+
+<form id="contactform" name="contactform" method="post" action="./contactform.php">
+<p>
+Alternatively, send us a message by completing the form below:
+</p>
+<fieldset>
+<p>
+<label>Name: <br><input type="text" name="name" id="name"></label>
+</p>
+<p>
+I am an: <label>Agency<input type="radio" name="customer" id="customeragency" value="sales@something.com"></label>
+<label>Individual<input type="radio" name="customer" id="customerindividual" value="info@something.com"></label>
+<label>Other<input type="radio" checked="checked" name="customer" id="customerother" value="info@something.com"></label>
+</p>
+<p>
+<label>Company (optional): <br><input type="text" name="company" id="company"></label>
+</p>
+<p>
+<label>Email Address: <br><input type="text" name="email" id="email"></label>
+</p>
+<p>
+<label>Phone Number: <br><input type="text" name="phone" id="phone"></label>
+</p>
+<p>
+<label>Message: <br><textarea name="message" id="message"></textarea></label>
+</p>
+<p>
+<label id="button"><input type="submit" name="submit" id="submit" value="Send"></label>
+</p>
+</fieldset>
+</form>
+
+</body>
+</html>

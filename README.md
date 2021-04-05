@@ -1,3 +1,3 @@
 # Web
  
-WIP - Personal website, chrisashwalker.com
+Work in progress: Personal website, chrisashwalker.com

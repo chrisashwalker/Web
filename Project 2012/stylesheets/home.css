@@ -1,0 +1,96 @@
+#home, #home a {
+background-color:#ccc;
+color:#333;
+}
+
+#promotionbanner {
+color:#161616;
+background-color:#fc3;
+padding:20px;
+width:860px;
+margin-bottom:50px;
+text-align:center;
+}
+
+#promotionbanner a {
+color:#161616;
+text-decoration:underline;
+font-weight:bold;
+}
+
+#hometext1 {
+float:left;
+background-color:#333;
+padding:10px;
+width:320px;
+height:705px;
+margin:0 5px 5px 0;
+}
+
+#mainfade {
+float:right;
+width:555px;
+height:400px;
+background-image:url(../graphics/placeholder.png);
+margin-bottom:5px;
+}
+
+#homeimg2 {
+width:555px;
+height:320px;
+float:right;
+margin-bottom:5px;
+}
+
+#testimonialtext {
+float:right;
+background-color:#333;
+padding:10px;
+width:430px;
+height:230px;
+margin-left:5px;
+}
+
+#testimonialimg {
+float:left;
+width:445px;
+height:250px;
+}
+
+#mainimg {
+display:none;
+width:100%;
+margin-bottom:5px;
+}
+
+@media (max-width:920px) {
+#hometext1, #testimonialtext {
+width:90%;
+height:auto;
+padding:10px 5% 10px 5%;
+}
+
+#homeimg1, #testimonialimg {
+width:100%;
+height:auto;
+margin:0 0 5px 0;
+}
+
+#homeimg2 {
+display:none;
+}
+
+#promotionbanner {
+width:80%;
+padding:20px 10% 20px 10%;
+}
+
+#mainfade {
+display:none;
+}
+
+#mainimg {
+display:block;
+}
+
+}
